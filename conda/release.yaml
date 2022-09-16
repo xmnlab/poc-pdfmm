@@ -1,0 +1,19 @@
+name: poc-pdfmm-release
+channels:
+- nodefaults
+- conda-forge
+dependencies:
+# build
+- compilers
+- compiler-rt
+- clangdev 13.*
+- clangxx 13.*
+- meson
+- lld 13.*
+- ninja
+- python
+# run
+- cli11
+- glog
+- doxygen
+- nodejs

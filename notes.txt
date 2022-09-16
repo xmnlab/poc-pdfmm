@@ -1,0 +1,8 @@
+- pdfid in the beginning
+- intereactive should be removed
+- we should just have json output
+- it takes really a lot of time for some objects
+- an acceptable timeout would be around seconds
+- separate parsing (taking more time because js scripts inside (js_code)) and feature extraction
+- after separating
+- error recovering
